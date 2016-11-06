@@ -79,10 +79,6 @@ a:hover, a:focus {
     color: #fff;
 }
 
-.codrops-demos a.current-demo {
-	color: #ce4555;
-}
-
 /* Content */
 .section {
 	overflow: hidden;

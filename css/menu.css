@@ -41,52 +41,23 @@ Main Components
   }
 }
 
-
 .button-menu {
-  position: relative;
-  float: right;
-  height: 45px;
-  width: 45px;
-  margin-top: 18px;
-  /* replace text with background image */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  color: transparent;
+	width: 50px;
+	height: 30px;
+	position: fixed;
+	top: 3em;
+	right: 3em;
+	border: none;
+	background: transparent;
+	fill: #fff;
+	cursor: pointer;
+	pointer-events: auto;
 }
-.button-menu span,
-.button-menu span::before,
-.button-menu span::after {
-  /* hamburger icon in CSS */
-  position: absolute;
-  width: 28px;
-  height: 3px;
-  background-color: #FFF;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+
+.button-menu:focus {
+	outline: none;
 }
-.button-menu span {
-  /* this is the central line */
-  top: 21px;
-  left: 8px;
-  -webkit-transition: background 0.2s 0.5s;
-  -moz-transition: background 0.2s 0.5s;
-  transition: background 0.2s 0.5s;
-}
-.button-menu span::before, .button-menu span:after {
-  /* these are the upper and lower lines */
-  content: '';
-  left: 0;
-  -webkit-transition: -webkit-transform 0.2s 0.5s;
-  -moz-transition: -moz-transform 0.2s 0.5s;
-  transition: transform 0.2s 0.5s;
-}
-.button-menu span::before {
-  bottom: 8px;
-}
-.button-menu span::after {
-  top: 8px;
-}
+
 .nav-is-visible .button-menu span {
   /* hide line in the center */
   background-color: rgba(255, 255, 255, 0);
