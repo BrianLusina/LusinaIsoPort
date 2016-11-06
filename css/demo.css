@@ -312,11 +312,11 @@ a:hover, a:focus {
 	content: 'About';
 	position: absolute;
 	bottom: 93%;
-	left: 27%;
+	left: 17%;
 	font-weight: bold;
 	letter-spacing: 2px;
 	font-size: 0.45em;
-	color: #212738;
+	color: #ffffff;
 }
 
 .pater__title,
@@ -324,6 +324,10 @@ a:hover, a:focus {
 	margin: 0;
 	color: #fff;
 	position: relative;
+}
+
+.pater__desc{
+    margin-top:15px;
 }
 
 .pater__title {
