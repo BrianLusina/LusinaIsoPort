@@ -7,26 +7,33 @@
 		<title>TheLusina</title>
 		<meta name="description" content="Decorative &amp; interactive isometric &amp; 3D grids." />
 		<meta name="keywords" content="isometric, grid, images, masonry, perspective" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
+        
+		<meta name="Brian Lusina" content="The Lusina" />
+        <link rel="shortcut icon" href="favicon.ico">
+        
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body class="demo-1">
 		<main>
-			<header class="codrops-header">
-				<h1>The Lusina</h1>
+            <header class="codrops-header">
+            	<h1>The Lusina</h1>
 				<p>Android &amp; Web designer.<p>
-				<button class="button-menu">
-					<svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 67.75 43.63">
-                        <rect width="67.75" height="8.38"/><rect x="4.15" y="17.63" width="59.45" height="8.38" />
-                        <rect y="35.25" width="67.75" height="8.38"/>
-                    </svg>
-				</button>
-			</header>
+				<div class="codrops-links">
+					<a class="codrops-icon codrops-icon--resume" href="http://tympanus.net/Development/DistortedButtonEffects/" title="Resume">
+                        <span>Resume</span>
+                    </a>
+					<a class="codrops-icon codrops-icon--contact" href="http://tympanus.net/codrops/?p=27094" title="Contact">
+                        <span>Contact</span>
+                    </a>
+				</div>                
+<!--				<button class="button-menu">
+					<svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 67.75 43.63"><rect width="67.75" height="8.38"/><rect x="4.15" y="17.63" width="59.45" height="8.38" /><rect y="35.25" width="67.75" height="8.38"/></svg>
+				</button>-->
+            </header> <!-- .cd-header -->
 			<div class="isolayer isolayer--scroll1 isolayer--shadow">
 				<ul class="grid grid--effect-flip">
 					<li class="grid__item">
@@ -784,31 +791,6 @@
 				</ul>
 			</div>f
 		</main>
-        	<nav class="cd-3d-nav-container">
-		<ul class="cd-3d-nav">
-			<li class="cd-selected">
-				<a href="#0">Dashboard</a>
-			</li>
-
-			<li>
-				<a href="#0">Projects</a>
-			</li>
-
-			<li>
-				<a href="#0">Images</a>
-			</li>
-
-			<li>
-				<a href="#0">Settings</a>
-			</li>
-
-			<li>
-				<a href="#0">New</a>
-			</li>
-		</ul> <!-- .cd-3d-nav -->
-
-		<span class="cd-marker color-1"></span>	
-	</nav> <!-- .cd-3d-nav-container -->
         
 		<a class="pater" href="#">
 			<h2 class="pater__title" aria-label="About">
@@ -818,20 +800,16 @@
         
         <!--Scripts-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	
-        <script src="js/menu.js"></script>
+        <script src="js/vendor/jquery-2.1.1.js"></script>        
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/dynamics.min.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/animOnScroll.js"></script>
         
+        <script src="js/menu.js"></script>        
 		<script src="js/main.js"></script>
-        <script>
-        	$(function() {
-				$( '#dl-menu' ).dlmenu();
-			});
-        </script>
+
 		<script>
 		(function() {
 			function getRandomInt(min, max) {
