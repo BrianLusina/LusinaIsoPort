@@ -3,7 +3,7 @@ import '../styles/portfolio.css';
 import canvas from '../images/canvas.png';
 import wireframe from '../images/wireframe.png';
 import menuImg from "../images/ProScreenshots/menu-screenshot.png"
-import emeraldDesigns from '../images/ProScreenshots/emerald%20designs.png'
+import emeraldDesigns from '../images/ProScreenshots/emerald.png'
 import foodHutImg from '../images/ProScreenshots/foodhut.png';
 import miniWikiImg from '../images/ProScreenshots/mini-wiki-screenshot.png';
 import treasureGramImg from '../images/ProScreenshots/lutreasuregram.png';
@@ -38,7 +38,7 @@ export default class Portfolio extends Component{
                     <a className="grid__link" href={item.link}>
                         <img className="grid__img layer" src={item.canvasImg} alt="Canvas Dummy" />
                         <img className="grid__img layer" src={item.wireframeImg} alt="Wireframe Dummy" />
-                        <img className="grid__img layer grid__pro_img" src={item.projectImg} height={{100%}} alt={item.title} />
+                        <img className="grid__img layer grid__pro_img" src={item.projectImg} alt={item.title} />
                         <span className="grid__title">{item.title}</span>
                     </a>
                 </li>
