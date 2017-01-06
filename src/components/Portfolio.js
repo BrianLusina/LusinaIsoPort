@@ -16,6 +16,7 @@ import tictactoeImg from '../images/ProScreenshots/tictactoe_shot.png';
 
 export default class Portfolio extends Component{
     render(){
+        
         // portfolio items
         var portfilioItems = [
             {link:"https://brianlusina.github.io/Menu", canvasImg:canvas, wireframeImg:wireframe, projectImg:menuImg, title:"Menu"},

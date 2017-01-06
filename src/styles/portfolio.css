@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .pseudo-scroller {
 	pointer-events: none;
 }
