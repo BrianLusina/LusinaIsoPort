@@ -21,7 +21,6 @@
     "email": "lusinabrian@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://brianlusina.github.io/LusinaIsoPort",
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
