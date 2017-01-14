@@ -16,7 +16,7 @@ import tictactoeImg from '../images/ProScreenshots/tictactoe_shot.png';
 import simongameImg from '../images/ProScreenshots/simongame.png';
 import babystepsImg from '../images/ProScreenshots/babysteps.png';
 import africariseImg from '../images/ProScreenshots/africarise.png';
-
+import markdownjournalImg from '../images/ProScreenshots/markdown-journal.png';
 
 export default class Portfolio extends Component{
     render(){
@@ -33,10 +33,11 @@ export default class Portfolio extends Component{
             {link:"https://pomodoroclock.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:pomodoroClockImg, title:"Pomodoro Clock"},
             {link:"https://quotemachine.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:quoteMachineImg, title:"Quote Machine"},
             {link:"https://jscalculator.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:jsCalculatorImg, title:"JS Calculator"},
-            {link:"https://tictacto-game.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:tictactoeImg, title:"Tic Tac Toe"},
+            {link:"https://tictactoe-game.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:tictactoeImg, title:"Tic Tac Toe"},
             {link:"http://africarise.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:africariseImg, title:"Africa Rise"},
             {link:"https://simongame.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:simongameImg, title:"Simon Game"},
             {link:"https://babysteps.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:babystepsImg,title:"Baby Steps"},
+            {link:"http://markdownjournal.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:markdownjournalImg, title:"Mardown Journal"},
         ];
         
         // map each item to a view
