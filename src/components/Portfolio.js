@@ -13,23 +13,30 @@ import pomodoroClockImg from '../images/ProScreenshots/pomodoro_clock_shot.png';
 import quoteMachineImg from '../images/ProScreenshots/quotemachine.png';
 import jsCalculatorImg from '../images/ProScreenshots/jscalculator_shot.png';
 import tictactoeImg from '../images/ProScreenshots/tictactoe_shot.png';
+import simongameImg from '../images/ProScreenshots/simongame.png';
+import babystepsImg from '../images/ProScreenshots/babysteps.png';
+import africariseImg from '../images/ProScreenshots/africarise.png';
+
 
 export default class Portfolio extends Component{
     render(){
         
         // portfolio items
         var portfilioItems = [
-            {link:"https://brianlusina.github.io/Menu", canvasImg:canvas, wireframeImg:wireframe, projectImg:menuImg, title:"Menu"},
-            {link:"https://brianlusina.github.io/Emerald-Designs/", canvasImg:canvas, wireframeImg:wireframe, projectImg:emeraldDesigns, title:"Emerald"},
+            {link:"https://menurestaurant.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:menuImg, title:"Menu"},
+            {link:"https://emeralddesigns.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:emeraldDesigns, title:"Emerald"},
             {link:"http://foodhut.herokuapp.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:foodHutImg, title:"Food Hut"},
-            {link:"https://brianlusina.github.io/Wiki-Page", canvasImg:canvas, wireframeImg:wireframe, projectImg:miniWikiImg, title:"Mini Wiki"},
+            {link:"https://miniwiki.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:miniWikiImg, title:"Mini Wiki"},
             {link:"https://lutreasuregram.herokuapp.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:treasureGramImg, title:"Treasure Gram"},
-            {link:"https://brianlusina.github.io/Zenith-site", canvasImg:canvas, wireframeImg:wireframe, projectImg:zenithImg, title:"Zenith"},
+            {link:"https://zenith.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:zenithImg, title:"Zenith"},
             {link:"https://play.google.com/store/apps/details?id=com.petshelter.pets", canvasImg:canvas, wireframeImg:wireframe, projectImg:petShelterImg, title:"Pet shelter"},
-            {link:"https://brianlusina.github.io/PomodoroClock", canvasImg:canvas, wireframeImg:wireframe, projectImg:pomodoroClockImg, title:"Pomodoro Clock"},
-            {link:"https://brianlusina.github.io/QuoteMachine", canvasImg:canvas, wireframeImg:wireframe, projectImg:quoteMachineImg, title:"Quote Machine"},
-            {link:"https://brianlusina.github.io/JS-Calculator", canvasImg:canvas, wireframeImg:wireframe, projectImg:jsCalculatorImg, title:"JS Calculator"},
-            {link:"https://brianlusina.github.io/TicTacToe", canvasImg:canvas, wireframeImg:wireframe, projectImg:tictactoeImg, title:"Tic Tac Toe"},
+            {link:"https://pomodoroclock.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:pomodoroClockImg, title:"Pomodoro Clock"},
+            {link:"https://quotemachine.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:quoteMachineImg, title:"Quote Machine"},
+            {link:"https://jscalculator.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:jsCalculatorImg, title:"JS Calculator"},
+            {link:"https://tictacto-game.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:tictactoeImg, title:"Tic Tac Toe"},
+            {link:"http://africarise.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:africariseImg, title:"Africa Rise"},
+            {link:"https://simongame.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:simongameImg, title:"Simon Game"},
+            {link:"https://babysteps.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:babystepsImg,title:"Baby Steps"},
         ];
         
         // map each item to a view
