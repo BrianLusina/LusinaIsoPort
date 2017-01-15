@@ -17,7 +17,7 @@ import simongameImg from '../images/ProScreenshots/simongame.png';
 import babystepsImg from '../images/ProScreenshots/babysteps.png';
 import africariseImg from '../images/ProScreenshots/africarise.png';
 import markdownjournalImg from '../images/ProScreenshots/markdown-journal.png';
-import camperleaderboardImg from '../images/ProScreenshorts/camperleaderboard.png';
+import camperleaderboardImg from '../images/ProScreenshots/camperleaderboard.png';
 
 
 export default class Portfolio extends Component{
@@ -40,7 +40,7 @@ export default class Portfolio extends Component{
             {link:"https://simongame.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:simongameImg, title:"Simon Game"},
             {link:"https://babysteps.netlify.com/", canvasImg:canvas, wireframeImg:wireframe, projectImg:babystepsImg,title:"Baby Steps"},
             {link:"http://markdownjournal.surge.sh/", canvasImg:canvas, wireframeImg:wireframe, projectImg:markdownjournalImg, title:"Mardown Journal"},
-            {link:"http://camperleaderboard.netlify.com", canvasImg:canvas, wireframeImg:wireframeImg, projectImg:camperleaderboardImg, title:"Leaderboard"}
+            {link:"http://camperleaderboard.netlify.com", canvasImg:canvas, wireframeImg:wireframe, projectImg:camperleaderboardImg, title:"Leaderboard"}
         ];
         
         // map each item to a view
