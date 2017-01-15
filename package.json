@@ -1,5 +1,5 @@
 {
-  "name": "lusinaiso-port",
+  "name": "thelusina",
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BrianLusina/LusinaIsoPort"
+    "url": "git+https://github.com/BrianLusina/thelusina"
   },
   "keywords": [
     "Portfolio",
