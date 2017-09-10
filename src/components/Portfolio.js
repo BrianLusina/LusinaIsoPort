@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import "../styles/portfolio.css";
 import canvas from "../images/canvas.png";
 import wireframe from "../images/wireframe.png";
 import menuImg from "../images/ProScreenshots/menu-screenshot.png";
