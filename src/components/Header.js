@@ -20,7 +20,9 @@ const Header = () => {
                     <span>Resume</span>
                 </a>
 
-                <a className="codrops-icon codrops-icon--contact" href="#" title="Contact">
+                <a className="codrops-icon codrops-icon--contact"
+                   href="mailto:lusinabrian@gmail.com?Subject=Hello%20Lusina" target="_top"
+                   title="Contact">
                     <span>Contact</span>
                 </a>
 

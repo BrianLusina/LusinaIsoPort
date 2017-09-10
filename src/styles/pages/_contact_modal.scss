@@ -1,0 +1,30 @@
+// Grey background overlay also known as backdrop.
+// We make this div span the whole screen (width: 100% and height: 100%) and we make its
+// position to be absolute which means we can position it everywhere on the page. In this
+// case, we just put it in the top left corner (top: 0px and left: 0px) but since it has
+// 100% width and height it will cover the whole screen.
+// To make sure that it is really on top of all other elements, we set z-index to a high value
+// (by default all elements have a z-index value of 0).
+// Finally, we get the transparent grey effect by setting the background color to be black but
+// only at 30% opacity. #000 or #000000 or rgb(0,0,0) represent the black color and we can
+// make it 30% transparent by setting the type to rgba (notice the a) and 30% is represented
+// as 0.3
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  background: yellow;
+  transform: translate(-50%, -50%);
+}
