@@ -52,7 +52,6 @@ fabric.properties
 ### Sass template
 .sass-cache/
 *.css.map
-src/styles/index.css
 
 ### Node template
 # Logs
