@@ -22,6 +22,9 @@ import d3forcedirected from "../images/ProScreenshots/d3forcedirectedgraph_shot.
 import d3heatmap from "../images/ProScreenshots/d3heatmap_shot.png";
 import d3meteorstrike from "../images/ProScreenshots/d3meteorstrike_shot.png";
 import d3scatterplot from "../images/ProScreenshots/d3scatterplot_shot.png";
+import benjminsImg from "../images/ProScreenshots/benjamins_shot.png";
+import chatbotImg from "../images/ProScreenshots/chatbot_shot.png";
+import okypeteImg from "../images/ProScreenshots/okypete_shot.png";
 
 /**
  * Portfolio stateless component
@@ -176,7 +179,28 @@ const Portfolio = () => {
             wireFrameImg: wireframe,
             projectImg: d3scatterplot,
             title: "D3 ScatterPlot"
-        }
+        },
+        {
+            link: "https://benjamins.netlify.com/",
+            canvasImg: canvas,
+            wireFrameImg: wireframe,
+            projectImg: benjminsImg,
+            title: "Benjamins"
+        },
+        {
+            link: "https://play.google.com/store/apps/details?id=com.chatbot",
+            canvasImg: canvas,
+            wireFrameImg: wireframe,
+            projectImg: chatbotImg,
+            title: "Chatbot"
+        },
+        {
+            link: "https://play.google.com/store/apps/details?id=com.okypete",
+            canvasImg: canvas,
+            wireFrameImg: wireframe,
+            projectImg: okypeteImg,
+            title: "Okypete"
+        },
     ];
 
 
