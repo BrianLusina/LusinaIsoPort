@@ -25,6 +25,7 @@ import d3scatterplot from "../images/ProScreenshots/d3scatterplot_shot.png";
 import benjminsImg from "../images/ProScreenshots/benjamins_shot.png";
 import chatbotImg from "../images/ProScreenshots/chatbot_shot.png";
 import okypeteImg from "../images/ProScreenshots/okypete_shot.png";
+import picturadieiImg from "../images/ProScreenshots/picturadiei_shot.png";
 
 /**
  * Portfolio stateless component
@@ -200,6 +201,13 @@ const Portfolio = () => {
             wireFrameImg: wireframe,
             projectImg: okypeteImg,
             title: "Okypete"
+        },
+        {
+            link: "https://picturadiei.netlify.com/",
+            canvasImg: canvas,
+            wireFrameImg: wireframe,
+            projectImg: picturadieiImg,
+            title: "Pictura Diei"
         },
     ];
 
