@@ -8,7 +8,7 @@ const About = () => {
         <a className="pater" href="#">
             <h2 className="pater__title" aria-label="About"/>
             <p className="pater__desc">
-                I am Brian Lusina, an software developer.
+                I am Brian Lusina, a software developer.
                 Creating sites and apps that are both simple and fun to use is my passion.
             </p>
         </a>
